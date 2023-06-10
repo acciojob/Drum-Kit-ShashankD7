@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.keys {
+  display: flex;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: darkgray;
+}
